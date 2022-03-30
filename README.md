@@ -9,4 +9,4 @@
 
 ## 모델
 Xgboost로 모델 성능이 잘 나오지 않아서 LightGBM으로 바꾸었을 때 F1 score가 오르는 것을 확인하였습니다.  
-test data의 파산비율이 train data의 파산 비율과 비슷할 거랑 생각을 가지고 threshold 값을 비슷하게 맞춰준 결과 성능이 많이 올랐습니다.
+threshold 값을 0.3정도로 조정했을 때 성능이 많이 올랐습니다.
